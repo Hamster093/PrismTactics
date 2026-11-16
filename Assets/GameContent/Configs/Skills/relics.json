@@ -1,0 +1,103 @@
+﻿{
+    "relics":  [
+                   {
+                       "id":  "relic_ruby_1",
+                       "displayName":  "一阶红宝石",
+                       "description":  "攻击力提升10%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_ruby_1",
+                       "rarity":  1,
+                       "attackPercent":  0.1,
+                       "healthPercent":  0,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_emerald_1",
+                       "displayName":  "一阶绿宝石",
+                       "description":  "生命值提升10%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_emerald_1",
+                       "rarity":  1,
+                       "attackPercent":  0,
+                       "healthPercent":  0.1,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_sapphire_1",
+                       "displayName":  "一阶蓝宝石",
+                       "description":  "防御力提升10%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_sapphire_1",
+                       "rarity":  1,
+                       "attackPercent":  0,
+                       "healthPercent":  0,
+                       "defensePercent":  0.1,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_ruby_2",
+                       "displayName":  "二阶红宝石",
+                       "description":  "攻击力提升20%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_ruby_2",
+                       "rarity":  2,
+                       "attackPercent":  0.2,
+                       "healthPercent":  0,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_emerald_2",
+                       "displayName":  "二阶绿宝石",
+                       "description":  "生命值提升20%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_emerald_2",
+                       "rarity":  2,
+                       "attackPercent":  0,
+                       "healthPercent":  0.2,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_sapphire_2",
+                       "displayName":  "二阶蓝宝石",
+                       "description":  "防御力提升20%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_sapphire_2",
+                       "rarity":  2,
+                       "attackPercent":  0,
+                       "healthPercent":  0,
+                       "defensePercent":  0.2,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_ruby_3",
+                       "displayName":  "三阶红宝石",
+                       "description":  "攻击力提升30%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_ruby_3",
+                       "rarity":  3,
+                       "attackPercent":  0.30000000000000004,
+                       "healthPercent":  0,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_emerald_3",
+                       "displayName":  "三阶绿宝石",
+                       "description":  "生命值提升30%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_emerald_3",
+                       "rarity":  3,
+                       "attackPercent":  0,
+                       "healthPercent":  0.30000000000000004,
+                       "defensePercent":  0,
+                       "attackSpeedPercent":  0
+                   },
+                   {
+                       "id":  "relic_sapphire_3",
+                       "displayName":  "三阶蓝宝石",
+                       "description":  "防御力提升30%",
+                       "icon":  "UIHandDrawn/Meta/Relics/relic_sapphire_3",
+                       "rarity":  3,
+                       "attackPercent":  0,
+                       "healthPercent":  0,
+                       "defensePercent":  0.30000000000000004,
+                       "attackSpeedPercent":  0
+                   }
+               ]
+}

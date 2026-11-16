@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "medkit",
+      "displayName": "急救包",
+      "description": "以放置格为中心，3x3 范围内友方回复 30% 最大生命。",
+      "effectKey": "heal_area",
+      "charges": 2,
+      "radius": 1,
+      "healPercent": 0.3,
+      "durationSeconds": 0,
+      "slowPercent": 0,
+      "colorR": 0.25,
+      "colorG": 0.85,
+      "colorB": 0.45
+    }
+  ]
+}

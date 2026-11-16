@@ -1,0 +1,49 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# YooAsset / 第三阶段产物
+Bundles/
+ServerData/
+Assets/StreamingAssets/yoo*
+Assets/StreamingAssets/Release*
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unity generated meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.stackdump
+
+# Unity Test Runner 临时场景
+Assets/InitTestScene*.unity
+Assets/InitTestScene*.unity.meta
+
+# 录制用内容备份
+RecordingBackup/

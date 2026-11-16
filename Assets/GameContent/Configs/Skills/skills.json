@@ -1,0 +1,424 @@
+{
+    "skills": [
+        {
+            "id": "guard_power_strike",
+            "displayName": "强力击",
+            "description": "下一次攻击造成 300% 伤害",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 1,
+            "spCost": 5,
+            "initialSp": 0,
+            "spPerSecond": 1.0,
+            "effectType": 0,
+            "durationTicks": 0,
+            "damageType": 0,
+            "damageMultiplier": 3.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": true,
+            "rangeCells": []
+        },
+        {
+            "id": "guard_attack_up",
+            "displayName": "攻击强化",
+            "description": "攻击 +50%，攻击对目标及周围的敌人造成伤害",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 20,
+            "initialSp": 10,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 300,
+            "damageType": 0,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.5,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": true,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "yige_flash",
+            "displayName": "剑光一闪",
+            "description": "如果有敌人，往前三格拔刀斩，造成 300% 伤害",
+            "effectKey": "",
+            "activationType": 1,
+            "spRecoveryType": 0,
+            "spCost": 12,
+            "initialSp": 7,
+            "spPerSecond": 1.0,
+            "effectType": 2,
+            "durationTicks": 0,
+            "damageType": 0,
+            "damageMultiplier": 3.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": true,
+            "requiresEnemy": true,
+            "rangeCells": [
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "id": "yige_ten_flash",
+            "displayName": "剑光十闪",
+            "description": "如果有敌人，往前三格拔刀斩，造成 10 次 300% 伤害",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 60,
+            "initialSp": 55,
+            "spPerSecond": 1.0,
+            "effectType": 2,
+            "durationTicks": 0,
+            "damageType": 0,
+            "damageMultiplier": 3.0,
+            "hitCount": 10,
+            "extraHits": 0,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": true,
+            "requiresEnemy": true,
+            "rangeCells": [
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "id": "kkdy_power_strike",
+            "displayName": "三连发",
+            "description": "下一次攻击变成三连发",
+            "effectKey": "",
+            "activationType": 1,
+            "spRecoveryType": 1,
+            "spCost": 4,
+            "initialSp": 0,
+            "spPerSecond": 1.0,
+            "effectType": 0,
+            "durationTicks": 0,
+            "damageType": 0,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 2,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": true,
+            "rangeCells": []
+        },
+        {
+            "id": "kkdy_normal_mode",
+            "displayName": "正常模式",
+            "description": "持续时间内每次攻击都是三连发",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 30,
+            "initialSp": 15,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 750,
+            "damageType": 0,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 2,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "uncle_heal_up",
+            "displayName": "治疗强化",
+            "description": "攻击力 +50%，持续治疗血量最少的友军",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 32,
+            "initialSp": 10,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 750,
+            "damageType": 0,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.5,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 1.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "uncle_deep_heal",
+            "displayName": "深度治疗",
+            "description": "攻击力 +70%，攻击速度 +70%，持续治疗血量最少的友军",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 19,
+            "initialSp": 0,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 900,
+            "damageType": 0,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.699999988079071,
+            "attackSpeedPercent": 0.699999988079071,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 1.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "frost_nova",
+            "displayName": "黑暗物质",
+            "description": "对周围敌人造成法术伤害，并附加持续伤害",
+            "effectKey": "frost_nova",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 15,
+            "initialSp": 10,
+            "spPerSecond": 1.0,
+            "effectType": 2,
+            "durationTicks": 0,
+            "damageType": 1,
+            "damageMultiplier": 2.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "ice_armor",
+            "displayName": "黑暗力量",
+            "description": "攻击力与攻速提升，持续 10 秒",
+            "effectKey": "",
+            "activationType": 1,
+            "spRecoveryType": 0,
+            "spCost": 20,
+            "initialSp": 10,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 300,
+            "damageType": 1,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.30000001192092898,
+            "attackSpeedPercent": 0.30000001192092898,
+            "attackIntervalReducePercent": 0.0,
+            "multiTargetCount": 0,
+            "projectileTint": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": false,
+            "rangeCells": []
+        },
+        {
+            "id": "iceberg",
+            "displayName": "冰山",
+            "description": "攻击范围扩大、攻击间隔大幅缩短，攻击随机对范围内至多 6 个敌人发射冰锥。",
+            "effectKey": "",
+            "activationType": 0,
+            "spRecoveryType": 0,
+            "spCost": 5,
+            "initialSp": 5,
+            "spPerSecond": 1.0,
+            "effectType": 1,
+            "durationTicks": 450,
+            "damageType": 1,
+            "damageMultiplier": 1.0,
+            "hitCount": 1,
+            "extraHits": 0,
+            "attackPercent": 0.0,
+            "attackSpeedPercent": 0.0,
+            "attackIntervalReducePercent": 0.6499999761581421,
+            "multiTargetCount": 6,
+            "projectileTint": {
+                "r": 0.550000011920929,
+                "g": 0.8500000238418579,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "healPercent": 0.0,
+            "attacksAllInRange": false,
+            "requiresEnemy": true,
+            "rangeCells": [
+                {
+                    "x": 0,
+                    "y": -1
+                },
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": -1,
+                    "y": 0
+                },
+                {
+                    "x": -1,
+                    "y": 1
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "x": -2,
+                    "y": 0
+                },
+                {
+                    "x": -1,
+                    "y": -1
+                },
+                {
+                    "x": 0,
+                    "y": -2
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": -1
+                }
+            ]
+        }
+    ]
+}

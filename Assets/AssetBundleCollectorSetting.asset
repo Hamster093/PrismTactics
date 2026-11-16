@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
+  m_Name: AssetBundleCollectorSetting
+  m_EditorClassIdentifier: 
+  ShowPackageView: 0
+  ShowEditorAlias: 0
+  UniqueBundleName: 1
+  Packages:
+  - PackageName: BattleRes
+    PackageDesc: "\u6218\u6597\u8D44\u6E90\uFF1A\u914D\u7F6E\u3001UI\u3001\u5355\u4F4D\u3001\u5730\u56FE\u3001\u6218\u6597\u8868\u73B0"
+    EnableAddressable: 1
+    SupportExtensionless: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: Configs
+      GroupDesc: "\u914D\u7F6E JSON\uFF08M3.1 \u8FC1\u79FB\u771F\u5B9E\u914D\u7F6E\uFF09"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameContent/Configs
+        CollectorGUID: d905a3e322c8b904aa25a0d2c862425f
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: CombatVFX
+      GroupDesc: "\u6218\u6597\u8868\u73B0"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameContent/CombatBars
+        CollectorGUID: 2f260562e3df91545ad88e1430dfc9c7
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/DamageNumber.prefab
+        CollectorGUID: 8ddd58a42e61da74e99a43187ea83f11
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/HealthBar.prefab
+        CollectorGUID: c1b083f51612fb44cb74d17c5311909f
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/Projectile.prefab
+        CollectorGUID: 08044a4ec2e1d204d990f68c11ec36dd
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: UI
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameContent/UIPrefab
+        CollectorGUID: 4c08095d64bd8a940ad2bb8d76494728
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/UIHandDrawn
+        CollectorGUID: 831970c2e6538f147b72c17026a180fe
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+    - GroupName: MapVisual
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameContent/MapVisual
+        CollectorGUID: a933568dd47f451ab2d2a52e4c5c0bd7
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/MapVisualConfig.asset
+        CollectorGUID: d638d1b269f2f4b4ab631d1e3465c958
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameContent/UnitPrefabCatalog.asset
+        CollectorGUID: 2ac07639bc135284e9b837e4e2c3ef95
+        CollectorType: 0
+        AddressRuleName: GameContentPathAddressRule
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+  - PackageName: HotUpdateRes
+    PackageDesc: "\u70ED\u66F4\u8D44\u6E90\uFF1A\u70ED\u66F4 DLL \u4E0E AOT \u5143\u6570\u636E\uFF08M3.3
+      \u63A5\u5165\uFF09"
+    EnableAddressable: 1
+    SupportExtensionless: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: HotUpdate
+      GroupDesc: "\u70ED\u66F4\u5305"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/HotUpdateRes
+        CollectorGUID: 81eddce8d901a6b4c9ecc6b614899745
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 

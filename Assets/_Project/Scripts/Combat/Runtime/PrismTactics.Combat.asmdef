@@ -1,0 +1,14 @@
+{
+    "name": "PrismTactics.Combat",
+    "rootNamespace": "PrismTactics.Combat",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

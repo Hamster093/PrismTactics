@@ -1,0 +1,635 @@
+{
+    "mapId": "2",
+    "width": 11,
+    "height": 6,
+    "groundSurfaceY": 0.11999999731779099,
+    "highGroundSurfaceY": 0.41999998688697817,
+    "baseCell": {
+        "x": 0,
+        "y": 2
+    },
+    "cells": [
+        {
+            "x": 0,
+            "y": 0,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "terrain": 1,
+            "deployable": true
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "terrain": 0,
+            "deployable": true
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "terrain": 0,
+            "deployable": false
+        },
+        {
+            "x": 10,
+            "y": 5,
+            "terrain": 1,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 0,
+            "terrain": 2,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 1,
+            "terrain": 2,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 2,
+            "terrain": 2,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 3,
+            "terrain": 2,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 4,
+            "terrain": 2,
+            "deployable": false
+        },
+        {
+            "x": 11,
+            "y": 5,
+            "terrain": 2,
+            "deployable": false
+        }
+    ],
+    "spawnPoints": [
+        {
+            "x": 10,
+            "y": 2,
+            "routeId": "route_10_2"
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "routeId": "route_10_0"
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "routeId": "route_10_4"
+        }
+    ],
+    "routes": [
+        {
+            "id": "route_10_4",
+            "points": [
+                {
+                    "x": 10,
+                    "y": 4
+                },
+                {
+                    "x": 9,
+                    "y": 4
+                },
+                {
+                    "x": 8,
+                    "y": 4
+                },
+                {
+                    "x": 7,
+                    "y": 4
+                },
+                {
+                    "x": 6,
+                    "y": 4
+                },
+                {
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "id": "route_10_2",
+            "points": [
+                {
+                    "x": 10,
+                    "y": 2
+                },
+                {
+                    "x": 9,
+                    "y": 2
+                },
+                {
+                    "x": 8,
+                    "y": 2
+                },
+                {
+                    "x": 7,
+                    "y": 2
+                },
+                {
+                    "x": 6,
+                    "y": 2
+                },
+                {
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        },
+        {
+            "id": "route_10_0",
+            "points": [
+                {
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "x": 9,
+                    "y": 0
+                },
+                {
+                    "x": 8,
+                    "y": 0
+                },
+                {
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        }
+    ]
+}

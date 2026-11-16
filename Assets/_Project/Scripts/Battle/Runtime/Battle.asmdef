@@ -1,0 +1,22 @@
+{
+    "name": "PrismTactics.Battle",
+    "rootNamespace": "PrismTactics.Battle",
+    "references": [
+        "PrismTactics.Combat",
+        "UnityEngine.UI",
+        "DOTween.Modules",
+        "spine-unity",
+        "spine-csharp",
+        "YooAsset",
+        "PrismTactics.Launcher"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

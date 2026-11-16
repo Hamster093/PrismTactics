@@ -1,0 +1,31 @@
+{
+    "waves": [
+        {
+            "waveNumber": 1,
+            "delaySeconds": 1.0,
+            "spawns": [
+                {
+                    "enemyId": 4,
+                    "routeId": "route_10_0",
+                    "count": 20,
+                    "spawnTimeSeconds": 1.0,
+                    "intervalSeconds": 0.2
+                },
+                {
+                    "enemyId": 4,
+                    "routeId": "route_10_2",
+                    "count": 20,
+                    "spawnTimeSeconds": 1.0,
+                    "intervalSeconds": 0.2
+                },
+                {
+                    "enemyId": 4,
+                    "routeId": "route_10_4",
+                    "count": 20,
+                    "spawnTimeSeconds": 1.0,
+                    "intervalSeconds": 0.2
+                }
+            ]
+        }
+    ]
+}

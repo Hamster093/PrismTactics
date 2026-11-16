@@ -1,0 +1,26 @@
+{
+    "name": "PrismTactics.Combat.Editor",
+    "rootNamespace": "PrismTactics.EditorTools",
+    "references": [
+        "PrismTactics.Combat",
+        "PrismTactics.Battle",
+        "PrismTactics.Game",
+        "spine-unity",
+        "spine-csharp",
+        "YooAsset",
+        "YooAsset.Editor",
+        "HybridCLR.Editor",
+        "Unity.2D.Sprite.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

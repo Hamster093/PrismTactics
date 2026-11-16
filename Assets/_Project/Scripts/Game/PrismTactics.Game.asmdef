@@ -1,0 +1,18 @@
+{
+    "name": "PrismTactics.Game",
+    "rootNamespace": "PrismTactics.Game",
+    "references": [
+        "PrismTactics.Combat",
+        "PrismTactics.Battle",
+        "DOTween.Modules"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,134 @@
+{
+    "waves": [
+        {
+            "waveNumber": 1,
+            "delaySeconds": 1.0,
+            "spawns": [
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_4",
+                    "count": 1,
+                    "spawnTimeSeconds": 4.0,
+                    "intervalSeconds": 0.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_0",
+                    "count": 2,
+                    "spawnTimeSeconds": 8.0,
+                    "intervalSeconds": 1.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_2",
+                    "count": 2,
+                    "spawnTimeSeconds": 11.0,
+                    "intervalSeconds": 1.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_2",
+                    "count": 2,
+                    "spawnTimeSeconds": 14.0,
+                    "intervalSeconds": 1.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_4",
+                    "count": 2,
+                    "spawnTimeSeconds": 18.0,
+                    "intervalSeconds": 4.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_0",
+                    "count": 2,
+                    "spawnTimeSeconds": 20.0,
+                    "intervalSeconds": 4.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_0",
+                    "count": 1,
+                    "spawnTimeSeconds": 28.0,
+                    "intervalSeconds": 0.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_4",
+                    "count": 1,
+                    "spawnTimeSeconds": 28.0,
+                    "intervalSeconds": 0.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_2",
+                    "count": 2,
+                    "spawnTimeSeconds": 30.0,
+                    "intervalSeconds": 2.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_0",
+                    "count": 2,
+                    "spawnTimeSeconds": 35.0,
+                    "intervalSeconds": 4.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_4",
+                    "count": 2,
+                    "spawnTimeSeconds": 35.0,
+                    "intervalSeconds": 4.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_2",
+                    "count": 10,
+                    "spawnTimeSeconds": 40.0,
+                    "intervalSeconds": 1.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_4",
+                    "count": 2,
+                    "spawnTimeSeconds": 46.0,
+                    "intervalSeconds": 5.0
+                },
+                {
+                    "enemyId": 2,
+                    "routeId": "route_10_0",
+                    "count": 2,
+                    "spawnTimeSeconds": 46.0,
+                    "intervalSeconds": 5.0
+                },
+                {
+                    "enemyId": 3,
+                    "routeId": "route_10_2",
+                    "count": 2,
+                    "spawnTimeSeconds": 52.0,
+                    "intervalSeconds": 4.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_0",
+                    "count": 3,
+                    "spawnTimeSeconds": 57.0,
+                    "intervalSeconds": 1.0
+                },
+                {
+                    "enemyId": 1,
+                    "routeId": "route_10_4",
+                    "count": 3,
+                    "spawnTimeSeconds": 60.0,
+                    "intervalSeconds": 1.0
+                }
+            ]
+        },
+        {
+            "waveNumber": 2,
+            "delaySeconds": 1.0,
+            "spawns": []
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+  "levels": [
+    {
+      "id": "level_1",
+      "displayName": "第一关",
+      "mapId": "1"
+    },
+    {
+      "id": "level_2",
+      "displayName": "第二关",
+      "mapId": "3"
+    },
+    {
+      "id": "level_3",
+      "displayName": "第三关",
+      "mapId": "1"
+    },
+    {
+      "id": "level_4",
+      "displayName": "第四关",
+      "mapId": "1"
+    },
+    {
+      "id": "level_5",
+      "displayName": "第五关",
+      "mapId": "1"
+    },
+{
+    "id": "level_6",
+    "displayName": "第六关",
+    "mapId": "2"
+}
+  ]
+}

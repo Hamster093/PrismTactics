@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f44c1a65484334aa8e7440e533e773, type: 3}
+  m_Name: MapVisualConfig
+  m_EditorClassIdentifier: 
+  groundCellPrefab: {fileID: 7541493193686112115, guid: 3d410cb57f7eb434d82ea72b9645fc1e, type: 3}
+  highGroundCellPrefab: {fileID: 9062069344084397671, guid: bcc93a1256a58294bbbc562a08ccaf57, type: 3}
+  baseCellPrefab: {fileID: 108988098679826559, guid: 2339d75b1b0a5194abef313d03fd2302, type: 3}
+  spawnCellPrefab: {fileID: 4354108976351020177, guid: 98390fc39f48c4849adc3eebe81f36cb, type: 3}
+  backgroundPrefab: {fileID: 4677786519619785482, guid: b8054bbd0b680a946827e099a367bba5, type: 3}

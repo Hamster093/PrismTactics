@@ -1,0 +1,216 @@
+{
+    "label": "baseline",
+    "sceneName": "M1_Perf60",
+    "unityVersion": "2022.3.62f2c1",
+    "platform": "WindowsEditor",
+    "startedAt": "2026-10-30 14:46:31",
+    "totalEnemies": 60,
+    "peakLiveEnemies": 60,
+    "sampledFrames": 1201,
+    "overall": {
+        "name": "全程",
+        "frameCount": 1201,
+        "seconds": 20.005690199999998,
+        "avgFps": 60.03292003392116,
+        "peakLiveEnemies": 60,
+        "resourcesLoadsPerFrame": 2.0,
+        "resourcesLoadsTotal": 2402,
+        "metrics": [
+            {
+                "key": "frameMsMeasured",
+                "displayName": "实测帧间隔",
+                "sourceName": "采样时间戳差值",
+                "unit": "ms",
+                "available": true,
+                "avg": 16.657527227310579,
+                "p95": 17.030000000001878,
+                "max": 24.238600000000333
+            },
+            {
+                "key": "mainThread",
+                "displayName": "主线程帧时间",
+                "sourceName": "PlayerLoop",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.4220076602830968,
+                "p95": 0.6962,
+                "max": 7.8478
+            },
+            {
+                "key": "gcAlloc",
+                "displayName": "GC 分配",
+                "sourceName": "GC.Alloc（字节）",
+                "unit": "B",
+                "available": true,
+                "avg": 918.5678601165695,
+                "p95": 1000.0,
+                "max": 203600.0
+            },
+            {
+                "key": "drawCalls",
+                "displayName": "Draw Calls",
+                "sourceName": "Draw Calls Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "setPass",
+                "displayName": "SetPass Calls",
+                "sourceName": "SetPass Calls Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "batches",
+                "displayName": "Batches",
+                "sourceName": "Batches Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "canvas",
+                "displayName": "Canvas 提交",
+                "sourceName": "UGUI.Rendering.UpdateBatches",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "canvasBuild",
+                "displayName": "Canvas 合批",
+                "sourceName": "Canvas.BuildBatch",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "resourcesLoads",
+                "displayName": "Resources.Load / 帧",
+                "sourceName": "ResourcesLoadTracker",
+                "unit": "次",
+                "available": true,
+                "avg": 2.0,
+                "p95": 2.0,
+                "max": 2.0
+            }
+        ]
+    },
+    "peakWindow": {
+        "name": "峰值窗口（同屏 ≥ 峰值 80%）",
+        "frameCount": 358,
+        "seconds": 5.948039699999999,
+        "avgFps": 60.187896862894188,
+        "peakLiveEnemies": 60,
+        "resourcesLoadsPerFrame": 2.0,
+        "resourcesLoadsTotal": 716,
+        "metrics": [
+            {
+                "key": "frameMsMeasured",
+                "displayName": "实测帧间隔",
+                "sourceName": "采样时间戳差值",
+                "unit": "ms",
+                "available": true,
+                "avg": 16.66676564245808,
+                "p95": 17.198300000000445,
+                "max": 18.66240000000019
+            },
+            {
+                "key": "mainThread",
+                "displayName": "主线程帧时间",
+                "sourceName": "PlayerLoop",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.5002223463687152,
+                "p95": 0.8399,
+                "max": 2.2505
+            },
+            {
+                "key": "gcAlloc",
+                "displayName": "GC 分配",
+                "sourceName": "GC.Alloc（字节）",
+                "unit": "B",
+                "available": true,
+                "avg": 748.8826815642458,
+                "p95": 1000.0,
+                "max": 15600.0
+            },
+            {
+                "key": "drawCalls",
+                "displayName": "Draw Calls",
+                "sourceName": "Draw Calls Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "setPass",
+                "displayName": "SetPass Calls",
+                "sourceName": "SetPass Calls Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "batches",
+                "displayName": "Batches",
+                "sourceName": "Batches Count",
+                "unit": "次",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "canvas",
+                "displayName": "Canvas 提交",
+                "sourceName": "UGUI.Rendering.UpdateBatches",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "canvasBuild",
+                "displayName": "Canvas 合批",
+                "sourceName": "Canvas.BuildBatch",
+                "unit": "ms",
+                "available": true,
+                "avg": 0.0,
+                "p95": 0.0,
+                "max": 0.0
+            },
+            {
+                "key": "resourcesLoads",
+                "displayName": "Resources.Load / 帧",
+                "sourceName": "ResourcesLoadTracker",
+                "unit": "次",
+                "available": true,
+                "avg": 2.0,
+                "p95": 2.0,
+                "max": 2.0
+            }
+        ]
+    },
+    "notes": [
+        "峰值窗口用于排除出怪前的空场帧；阈值 = 峰值同屏数 × 80%。",
+        "Draw Calls / SetPass / Batches 需要启用渲染设备；batchmode 下若不可用，报告会标记为 0。"
+    ]
+}

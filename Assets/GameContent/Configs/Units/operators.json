@@ -1,0 +1,315 @@
+{
+    "operators": [
+        {
+            "id": "1",
+            "displayName": "冰霜女皇",
+            "maxHealth": 100.0,
+            "attack": 20.0,
+            "defense": 5.0,
+            "magicResist": 15.0,
+            "attackIntervalTicks": 30,
+            "windupTicks": 9,
+            "attackHitNormalizedTime": 0.800000011920929,
+            "useProjectile": true,
+            "projectileSpeed": 4.0,
+            "blockCount": 1,
+            "deployCost": 5,
+            "canDeployOnHighGround": true,
+            "requiresHighGround": true,
+            "isHealer": false,
+            "skillIds": [
+                "kkdy_power_strike",
+                "iceberg"
+            ],
+            "targetSelector": 0,
+            "damageType": 0,
+            "baseDamage": 0.0,
+            "attackScale": 1.0,
+            "rangeCells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": -1
+                },
+                {
+                    "x": 1,
+                    "y": -1
+                },
+                {
+                    "x": 0,
+                    "y": -1
+                }
+            ],
+            "colorR": 0.2039215862751007,
+            "colorG": 0.572549045085907,
+            "colorB": 0.6980392336845398
+        },
+        {
+            "id": "2",
+            "displayName": "火焰法师",
+            "maxHealth": 100.0,
+            "attack": 40.0,
+            "defense": 7.0,
+            "magicResist": 0.0,
+            "attackIntervalTicks": 30,
+            "windupTicks": 9,
+            "attackHitNormalizedTime": 0.6000000238418579,
+            "useProjectile": true,
+            "projectileSpeed": 4.0,
+            "blockCount": 1,
+            "deployCost": 5,
+            "canDeployOnHighGround": true,
+            "requiresHighGround": true,
+            "isHealer": false,
+            "skillIds": [
+                "guard_power_strike",
+                "guard_attack_up"
+            ],
+            "targetSelector": 0,
+            "damageType": 0,
+            "baseDamage": 0.0,
+            "attackScale": 1.0,
+            "rangeCells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": -1
+                },
+                {
+                    "x": 1,
+                    "y": -1
+                },
+                {
+                    "x": 0,
+                    "y": -1
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": -1
+                }
+            ],
+            "colorR": 0.7647059559822083,
+            "colorG": 0.22745099663734437,
+            "colorB": 0.0941176563501358
+        },
+        {
+            "id": "3",
+            "displayName": "白色骑士",
+            "maxHealth": 150.0,
+            "attack": 20.0,
+            "defense": 7.0,
+            "magicResist": 0.0,
+            "attackIntervalTicks": 30,
+            "windupTicks": 9,
+            "attackHitNormalizedTime": 0.6000000238418579,
+            "useProjectile": false,
+            "projectileSpeed": 4.0,
+            "blockCount": 2,
+            "deployCost": 5,
+            "canDeployOnHighGround": false,
+            "requiresHighGround": false,
+            "isHealer": false,
+            "skillIds": [
+                "yige_flash",
+                "yige_ten_flash"
+            ],
+            "targetSelector": 0,
+            "damageType": 0,
+            "baseDamage": 0.0,
+            "attackScale": 1.0,
+            "rangeCells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                }
+            ],
+            "colorR": 0.9371068477630615,
+            "colorG": 0.9371068477630615,
+            "colorB": 0.9371068477630615
+        },
+        {
+            "id": "4",
+            "displayName": "红色骑士",
+            "maxHealth": 150.0,
+            "attack": 20.0,
+            "defense": 7.0,
+            "magicResist": 0.0,
+            "attackIntervalTicks": 30,
+            "windupTicks": 9,
+            "attackHitNormalizedTime": 0.6000000238418579,
+            "useProjectile": false,
+            "projectileSpeed": 4.0,
+            "blockCount": 2,
+            "deployCost": 5,
+            "canDeployOnHighGround": false,
+            "requiresHighGround": false,
+            "isHealer": false,
+            "skillIds": [
+                "yige_flash",
+                "yige_ten_flash"
+            ],
+            "targetSelector": 0,
+            "damageType": 0,
+            "baseDamage": 0.0,
+            "attackScale": 1.0,
+            "rangeCells": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                }
+            ],
+            "colorR": 0.9371068477630615,
+            "colorG": 0.9371068477630615,
+            "colorB": 0.9371068477630615
+        },
+        {
+            "id": "5",
+            "displayName": "黑骑士",
+            "maxHealth": 110.0,
+            "attack": 100.0,
+            "defense": 6.0,
+            "magicResist": 20.0,
+            "attackIntervalTicks": 30,
+            "windupTicks": 9,
+            "attackHitNormalizedTime": 0.800000011920929,
+            "useProjectile": true,
+            "projectileSpeed": 4.0,
+            "blockCount": 1,
+            "deployCost": 7,
+            "canDeployOnHighGround": true,
+            "requiresHighGround": true,
+            "isHealer": false,
+            "skillIds": [
+                "frost_nova",
+                "ice_armor"
+            ],
+            "targetSelector": 0,
+            "damageType": 1,
+            "baseDamage": 0.0,
+            "attackScale": 1.0,
+            "rangeCells": [
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": -1
+                },
+                {
+                    "x": 2,
+                    "y": -1
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": -1
+                },
+                {
+                    "x": 4,
+                    "y": -1
+                },
+                {
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "x": 4,
+                    "y": 1
+                }
+            ],
+            "colorR": 0.44999998807907107,
+            "colorG": 0.800000011920929,
+            "colorB": 1.0
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "initialLife": 999,
+    "startingCost": 99,
+    "costRegenPerSecond": 1.0,
+    "maxCost": 999
+}

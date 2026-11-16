@@ -1,0 +1,30 @@
+{
+    "appVersion": "0.1.0",
+    "minAppVersion": "0.1",
+    "schemaVersion": 1,
+    "latest": "1.2.0",
+    "previous": "1.1.0",
+    "releases": [
+        {
+            "releaseId": "1.0.0",
+            "battleResVersion": "1.0.0",
+            "hotUpdateResVersion": "1.0.0",
+            "hotUpdateDllHash": "",
+            "note": ""
+        },
+        {
+            "releaseId": "1.1.0",
+            "battleResVersion": "1.1.0",
+            "hotUpdateResVersion": "1.1.0",
+            "hotUpdateDllHash": "",
+            "note": ""
+        },
+        {
+            "releaseId": "1.2.0",
+            "battleResVersion": "1.2.0",
+            "hotUpdateResVersion": "1.2.0",
+            "hotUpdateDllHash": "",
+            "note": ""
+        }
+    ]
+}
